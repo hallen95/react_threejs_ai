@@ -16,7 +16,7 @@ const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
         {generatingImg ? (
           <CustomButton
             type="outline"
-            title="Asking IA"
+            title="Asking IA..."
             customStyles="text-xs"
           />
         ) : (
